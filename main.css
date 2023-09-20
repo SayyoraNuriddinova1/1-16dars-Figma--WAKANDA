@@ -1,0 +1,383 @@
+* {
+  box-sizing: border-box;
+}
+a {
+  color: inherit;
+}
+.container {
+  width: 1200px;
+  width: 1200px;
+  width: 1200px;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.nav-items {
+  display: flex;
+  gap: 3rem;
+  color: #000;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  align-items: center;
+}
+
+.nav {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+}
+ul {
+  list-style-type: none;
+  color: #d7d6d6;
+}
+a {
+  text-decoration: none;
+}
+
+.showcase {
+  display: flex;
+}
+h1 {
+  width: 546px;
+  color: #000;
+  font-family: SF Pro Display;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; /* 75px */
+  letter-spacing: -0.5px;
+}
+.showcase-p {
+  width: 386px;
+  color: #000;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+.button {
+  width: 200px;
+  height: 46px;
+  border-radius: 10px;
+  background: #0077c0;
+  color: #fff;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  display: inline-block;
+}
+
+.right {
+  position: relative;
+  display: flex;
+}
+
+.businessman-decore {
+  position: absolute;
+  top: 90px;
+  left: -90px;
+  z-index: -1;
+}
+.icons-list {
+  display: flex;
+  justify-content: space-between;
+}
+.steps {
+  display: flex;
+  justify-content: space-evenly;
+}
+.step1 {
+  text-align: center;
+  height: 702px;
+  padding: 0px 162px;
+  background: #0077c0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.step1-p {
+  color: #fafafa;
+  font-family: SF Pro Display;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 3px;
+}
+.step1-p1 {
+  color: #fafafa;
+  font-family: SF Pro Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.home {
+  background-color: white;
+  color: black;
+}
+.step1-p2 {
+  color: #fafafa;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  width: 345px;
+  text-align: left;
+}
+.step1-h3 {
+  color: #fff;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.5px;
+}
+.step2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.step2-h3 {
+  color: #000;
+  font-family: SF Pro Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; /* 60px */
+  letter-spacing: -0.5px;
+  width: 545px;
+}
+
+.circle2 {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  background-color: #c7eeff;
+  padding-top: 8px;
+  padding-left: 10px;
+  font-weight: 600;
+  color: #000;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.step2-right {
+  width: 350px;
+  height: 500px;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+}
+.step2-right1 {
+  flex-direction: column;
+}
+.step2-left-li {
+  width: 300px;
+  margin-bottom: 29px;
+  background-color: white;
+  color: #000;
+}
+.step2-left-right {
+  display: flex;
+}
+
+.step3 {
+  background-color: #c7eeff;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: -5;
+}
+
+.step3-h3 {
+  color: #000;
+  font-family: SF Pro Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; /* 60px */
+  letter-spacing: -0.5px;
+  width: 544px;
+}
+.step3-p {
+  color: #000;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  width: 450px;
+}
+.ellipse {
+  width: 474px;
+  height: 474px;
+  border-radius: 100%;
+  position: absolute;
+  top: 12%;
+  left: 5%;
+  z-index: -4;
+  background-color: #0077c0;
+}
+.step2-handsome {
+  position: relative;
+}
+
+.grafic-design {
+  position: absolute;
+  z-index: -2;
+  top: 10%;
+  right: -4%;
+}
+.card-ste2 {
+  position: absolute;
+  z-index: 3;
+  top: 38%;
+  right: 53%;
+}
+.step4-h6 {
+  color: #0077c0;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.step4-h3 {
+  color: #000;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; /* 60px */
+  letter-spacing: -0.5px;
+}
+.step4-photo {
+  width: 300px;
+  height: 320px;
+}
+.step4-photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.step5 {
+  background-color: #0077c0;
+  display: flex;
+  justify-content: space-around;
+}
+.step5-h6 {
+  color: #fff;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 3px;
+}
+.step5-h3 {
+  width: 545px;
+  color: #fff;
+  font-family: SF Pro Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3px;
+}
+.button1 {
+  display: inline-block;
+  color: #0077c0;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 148px;
+  height: 46px;
+}
+.step6,
+li {
+  background-color: #000;
+  display: flex;
+  color: #fff;
+}
+.footer1 {
+  width: 300px;
+  height: 165px;
+  gap: 8px;
+}
+.footer1-p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  width: 350px;
+}
+.footer2 {
+  width: 235px;
+  height: 232px;
+  gap: 30px;
+  text-align: left;
+}
+.footer,
+li {
+  text-align: left;
+  padding-bottom: 8px;
+}
+.step6-h6 {
+  margin-left: 40px;
+}
+.Wakanda {
+  color: #fff;
+  margin-bottom: 16px;
+  margin-left: -95px;
+  font-weight: 600;
+}
+.social-links {
+  margin-block: 16px;
+}
+.newsletter {
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.news-step6 {
+  position: relative;
+}
+.send {
+  position: absolute;
+  top: 45%;
+  right:2%;
+  
+}
+.input {
+  background-color: gray;
+}
+::-webkit-input-placeholder {
+  color: #fafafa;
+}
